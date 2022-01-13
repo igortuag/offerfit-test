@@ -90,12 +90,12 @@ export default function Home() {
               data={[
                 {
                   label: "Control",
-                  subLabel: dataInfo.controlRepeaters,
+                  subLabel: `total: ${dataInfo.controlRepeaters}`,
                   angle: dataInfo.controlRepeaters,
                 },
                 {
                   label: "Experimental",
-                  subLabel: dataInfo.experimentalRepeaters,
+                  subLabel: `total: ${dataInfo.experimentalRepeaters}`,
                   angle: dataInfo.experimentalRepeaters,
                 },
               ]}
