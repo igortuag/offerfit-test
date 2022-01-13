@@ -73,7 +73,7 @@ export default function Home() {
     <Main>
       <Container>
         <Header>
-          <Title>Customer Analysis</Title>
+          <Title>Offers Analysis</Title>
           <Date>{"2021-04-30"}</Date>
         </Header>
         <Wrapper>
@@ -104,9 +104,7 @@ export default function Home() {
             />
           </Card>
           <Card>
-            <CardTitle>
-              Total CLV (experiment group vs. control) to date
-            </CardTitle>
+            <CardTitle>Total CLV</CardTitle>
             <XYPlot xType="ordinal" width={300} height={300}>
               <VerticalGridLines />
               <HorizontalGridLines />
@@ -171,13 +169,14 @@ const Date = styled.p`
 const Title = styled.h1`
   font-size: 2rem;
   font-weight: bold;
-  color: #ccccc;
+  color: #888888;
   text-transform: uppercase;
   padding: 1rem 0;
 `;
 
 const Wrapper = styled.div`
   display: flex;
+  justify-content: center;
   gap: 1.25rem;
   flex-wrap: wrap;
   margin: 2rem auto;
@@ -206,5 +205,6 @@ const CardTotal = styled.p`
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  color: #777777;
+  color: #aaaaaa;
+  text-decoration: underline;
 `;
