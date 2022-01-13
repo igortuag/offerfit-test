@@ -23,3 +23,5 @@ npm run start
 # or
 yarn start
 ```
+
+Please see the live version in https://offerfit-test.vercel.app/
